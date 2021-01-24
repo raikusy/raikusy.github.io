@@ -5,7 +5,7 @@ admin_path: ''
 webhook_url: https://api.stackbit.com/project/600dbc524a8f8c0015894caf/webhook/refresh-content
 sections:
 - type: heading
-  label: Sidebar
+  label: Develop
 - type: directory
   path: src/pages/posts
   label: Posts
