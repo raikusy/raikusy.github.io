@@ -1,7 +1,7 @@
 {
     "description": "I'm a full-stack Javascript Developer. I love to work with React.js, Nest.js, React Native, Next.js, Node, Typescript, and more...",
     "layout_style": "overflow",
-    "palette": "orange",
+    "palette": "violet",
     "header": {
         "title": "Rakibul Hasan",
         "tagline": "Full-stack JS Developer",
@@ -73,6 +73,6 @@
     "footer": {
         "content": "&copy; Rakibul Hasan - 2021"
     },
-    "title": "Rakibul Hasan | raikusy | Full-stack Javascript Developer",
+    "title": "Rakibul Hasan @raikusy | Full-stack Javascript Developer",
     "favicon": "images/violet-owl.jpg"
 }
