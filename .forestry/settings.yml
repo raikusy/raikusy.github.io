@@ -6,6 +6,12 @@ webhook_url: https://api.stackbit.com/project/600dbc524a8f8c0015894caf/webhook/r
 sections:
 - type: heading
   label: Sidebar
+- type: directory
+  path: src/pages/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
