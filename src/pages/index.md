@@ -5,9 +5,9 @@ sections:
   - section_id: hero
     type: section_hero
     title: 'Hi, I''m Rakibul Hasan.'
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
+    content: >
+      I'm a full-stack Javascript Developer. I love to work with React.js,
+      Nest.js, React Native, Next.js, Node, Typescript, and more...
   - section_id: about
     type: section_content
     title: About
