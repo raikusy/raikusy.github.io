@@ -11,11 +11,10 @@ sections:
   - section_id: about
     type: section_content
     title: About
-    content: >-
-      This is the "about" excerpt. It can be used to provide a paragraph about
-      yourself that people can read on the homepage to get a sense of who you
-      are. There also exists a dedicated about page where you can write more
-      about yourself for those who are interested.
+    content: >
+      I've got 3 years+ professional experience working with Javascript and it's
+      various libraries and frameworks and runtimes like React, Next, Nest,
+      Express, Node, React Native, Typescript, etc.
     actions:
       - label: Contact Me
         url: /contact
