@@ -1,78 +1,78 @@
 {
-    "description": "I'm a full-stack Javascript Developer. I love to work with React.js, Nest.js, React Native, Next.js, Node, Typescript, and more...",
-    "layout_style": "overflow",
-    "palette": "violet",
-    "header": {
-        "title": "Rakibul Hasan",
-        "tagline": "Full-stack JS Developer",
-        "profile_img": "images/66998903_1120560888134339_5098089608705474560_o.jpg",
-        "profile_img_alt": "raikusy avatar",
-        "background": "dark",
-        "has_nav": true,
-        "nav_links": [
-            {
-                "label": "Home",
-                "url": "/",
-                "style": "link"
-            },
-            {
-                "label": "Blog",
-                "url": "/blog/",
-                "style": "link"
-            },
-            {
-                "label": "About",
-                "url": "/about/",
-                "style": "link"
-            },
-            {
-                "label": "Contact",
-                "url": "/contact/",
-                "style": "link"
-            }
-        ],
-        "has_social": true,
-        "social_links": [
-            {
-                "label": "Twitter",
-                "url": "https://twitter.com/raikusy",
-                "style": "icon",
-                "icon_class": "fa-twitter",
-                "new_window": true
-            },
-            {
-                "label": "Instagram",
-                "url": "https://www.instagram.com/raikusy",
-                "style": "icon",
-                "icon_class": "fa-instagram",
-                "new_window": true
-            },
-            {
-                "label": "GitHub",
-                "url": "https://github.com/raikusy",
-                "style": "icon",
-                "icon_class": "fa-github",
-                "new_window": true
-            },
-            {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/in/raikusy",
-                "style": "icon",
-                "icon_class": "fa-linkedin",
-                "new_window": true
-            },
-            {
-                "label": "DEV",
-                "url": "https://dev.to/raikusy",
-                "style": "icon",
-                "icon_class": "fa-dev",
-                "new_window": true
-            }
-        ]
-    },
-    "footer": {
-        "content": "&copy; Rakibul Hasan - 2021"
-    },
-    "title": "Rakibul Hasan @raikusy | Full-stack Javascript Developer",
-    "favicon": "images/violet-owl.jpg"
+  "description": "I'm a full-stack Javascript Developer. I love to work with React.js, Nest.js, React Native, Next.js, Node, Typescript, and more...",
+  "layout_style": "overflow",
+  "palette": "violet",
+  "header": {
+    "title": "Rakibul Hasan",
+    "tagline": "Full-stack JS Developer",
+    "profile_img": "images/raikusy.jpg",
+    "profile_img_alt": "raikusy avatar",
+    "background": "dark",
+    "has_nav": true,
+    "nav_links": [
+      {
+        "label": "Home",
+        "url": "/",
+        "style": "link"
+      },
+      {
+        "label": "Blog",
+        "url": "/blog",
+        "style": "link"
+      },
+      {
+        "label": "About",
+        "url": "/about",
+        "style": "link"
+      },
+      {
+        "label": "Contact",
+        "url": "/contact",
+        "style": "link"
+      }
+    ],
+    "has_social": true,
+    "social_links": [
+      {
+        "label": "Twitter",
+        "url": "https://twitter.com/raikusy",
+        "style": "icon",
+        "icon_class": "fa-twitter",
+        "new_window": true
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/raikusy",
+        "style": "icon",
+        "icon_class": "fa-instagram",
+        "new_window": true
+      },
+      {
+        "label": "GitHub",
+        "url": "https://github.com/raikusy",
+        "style": "icon",
+        "icon_class": "fa-github",
+        "new_window": true
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/raikusy",
+        "style": "icon",
+        "icon_class": "fa-linkedin",
+        "new_window": true
+      },
+      {
+        "label": "DEV",
+        "url": "https://dev.to/raikusy",
+        "style": "icon",
+        "icon_class": "fa-dev",
+        "new_window": true
+      }
+    ]
+  },
+  "footer": {
+    "content": "Rakibul Hasan &copy; 2021"
+  },
+  "title": "Rakibul Hasan @raikusy | Full-stack Javascript Developer",
+  "favicon": "images/violet-owl.jpg"
 }
