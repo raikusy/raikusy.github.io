@@ -1,42 +1,39 @@
 import React from "react";
-import ReactHtmlParser, { convertNodeToElement } from "react-html-parser";
-import { Helmet } from "react-helmet";
+// import ReactHtmlParser, { convertNodeToElement } from "react-html-parser";
+import parse, { domToReact, attributesToProps } from "html-react-parser";
+import ScriptTag from "react-script-tag";
 import Link from "./link";
 import _ from "lodash";
 
-const convertChildren = (children, index) =>
-  _.map(children, (childNode) =>
-    convertNodeToElement(childNode, index, _.noop())
-  );
+const options = {
+  replace: (node) => {
+    const props = attributesToProps(node.attribs);
+    if (node.type === "script") {
+      if (!_.isEmpty(node.children)) {
+        return <ScriptTag {...props}>{domToReact(node.children, options)}</ScriptTag>;
+      } else {
+        return <ScriptTag {...props} />;
+      }
+    } else if (node.type === "tag" && node.name === "a") {
+      const href = props.href;
+      const restProps = _.omit(props, "href");
+      // use Link only if there are no custom attributes like style, class, and what's not that might break react
+      if (_.isEmpty(restProps)) {
+        return (
+          <Link to={href} {...restProps}>
+            {domToReact(node.children, options)}
+          </Link>
+        );
+      }
+    }
+  },
+};
+
+// const convertChildren = (children) => _.map(children, (childNode) => domToReact(childNode, options));
 
 export default function htmlToReact(html) {
   if (!html) {
     return null;
   }
-  return ReactHtmlParser(html, {
-    transform: (node, index) => {
-      if (node.type === "script") {
-        if (!_.isEmpty(node.children)) {
-          return (
-            <Helmet key={index} {...node.attribs}>
-              {convertChildren(node.children, index)}
-            </Helmet>
-          );
-        } else {
-          return <Helmet key={index} {...node.attribs} />;
-        }
-      } else if (node.type === "tag" && node.name === "a") {
-        const href = node.attribs.href;
-        const props = _.omit(node.attribs, "href");
-        // use Link only if there are no custom attributes like style, class, and what's not that might break react
-        if (_.isEmpty(props)) {
-          return (
-            <Link key={index} to={href} {...props}>
-              {convertChildren(node.children, index)}
-            </Link>
-          );
-        }
-      }
-    },
-  });
+  return parse(html, options);
 }

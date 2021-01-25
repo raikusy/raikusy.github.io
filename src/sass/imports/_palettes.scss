@@ -23,7 +23,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-blue);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-blue),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-blue), 0.2);
     }
   }
 
@@ -36,10 +36,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-blue);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-blue), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-blue),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-blue), 0.2);
       }
     }
   }
@@ -56,7 +56,7 @@
         &:hover {
           background: _palette(accent-blue);
           border-color: _palette(accent-blue);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-blue),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-blue), 0.2);
         }
       }
     }
@@ -103,7 +103,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-violet);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-violet),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-violet), 0.2);
     }
   }
 
@@ -116,10 +116,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-violet);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-violet),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-violet), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-violet),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-violet), 0.2);
       }
     }
   }
@@ -136,7 +136,7 @@
         &:hover {
           background: _palette(accent-violet);
           border-color: _palette(accent-violet);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-violet),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-violet), 0.2);
         }
       }
     }
@@ -183,7 +183,7 @@
     &:active {
       background: transparent;
       border-color: _palette(accent-orange);
-      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-orange),.2);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-orange), 0.2);
     }
   }
 
@@ -196,10 +196,10 @@
   .profile {
     .avatar {
       border-color: _palette(accent-orange);
-      box-shadow: 0 0 1px 7px rgba(_palette(accent-orange),.2);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-orange), 0.2);
 
       @media only screen and (min-width: 801px) {
-        box-shadow: 0 0 1px 11px rgba(_palette(accent-orange),.2);
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-orange), 0.2);
       }
     }
   }
@@ -216,7 +216,7 @@
         &:hover {
           background: _palette(accent-orange);
           border-color: _palette(accent-orange);
-          box-shadow: 0 0 1px 5px rgba(_palette(accent-orange),.2);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-orange), 0.2);
         }
       }
     }
@@ -237,6 +237,86 @@
     .menu-item .button:focus,
     .menu-item .button:active {
       color: _palette(accent-orange);
+    }
+  }
+}
+
+.palette-yellow {
+  a {
+    border-color: _palette(accent-yellow);
+
+    &:hover {
+      border-color: currentColor;
+    }
+  }
+
+  button,
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  .button {
+    background: _palette(accent-yellow);
+    border-color: _palette(accent-yellow);
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: transparent;
+      border-color: _palette(accent-yellow);
+      box-shadow: 0 0 1px 0.5em rgba(_palette(accent-yellow), 0.2);
+    }
+  }
+
+  .underline {
+    &:after {
+      border-color: _palette(accent-yellow);
+    }
+  }
+
+  .profile {
+    .avatar {
+      border-color: _palette(accent-yellow);
+      box-shadow: 0 0 1px 7px rgba(_palette(accent-yellow), 0.2);
+
+      @media only screen and (min-width: 801px) {
+        box-shadow: 0 0 1px 11px rgba(_palette(accent-yellow), 0.2);
+      }
+    }
+  }
+
+  .social-links {
+    a {
+      &:not(.button) {
+        &:hover {
+          color: _palette(accent-yellow);
+        }
+      }
+
+      &.button-icon {
+        &:hover {
+          background: _palette(accent-yellow);
+          border-color: _palette(accent-yellow);
+          box-shadow: 0 0 1px 5px rgba(_palette(accent-yellow), 0.2);
+        }
+      }
+    }
+  }
+
+  .menu-item.current-menu-item,
+  .menu-item :not(.button):hover,
+  .post-title a:hover {
+    color: _palette(accent-yellow);
+  }
+
+  .site-header.dark {
+    .social-links .button-icon:hover {
+      border-color: _palette(accent-yellow);
+    }
+
+    .menu-item .button:hover,
+    .menu-item .button:focus,
+    .menu-item .button:active {
+      color: _palette(accent-yellow);
     }
   }
 }
