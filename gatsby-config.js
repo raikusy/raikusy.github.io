@@ -7,9 +7,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     "gatsby-source-data",
     "gatsby-plugin-sitemap",
-    "gatsby-plugin-postcss",
     "gatsby-plugin-netlify",
-    "gatsby-plugin-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -17,6 +15,15 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/static/images`,
+      },
+    },
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-sass",
       options: {},
@@ -30,6 +37,14 @@ module.exports = {
       options: {
         sourceUrlPath: "fields.url",
         pageContextProperty: "menus",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        google: {
+          families: ["Roboto:400,400i,700,700i&display=swap"],
+        },
       },
     },
     {

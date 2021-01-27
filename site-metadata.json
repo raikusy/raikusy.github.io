@@ -6,7 +6,7 @@
   "header": {
     "title": "Rakibul Hasan",
     "tagline": "Full-stack JS Developer",
-    "profile_img": "images/logo.png",
+    "profile_img": "images/logo@sm.webp",
     "profile_img_alt": "raikusy avatar",
     "background": "dark",
     "has_nav": true,
@@ -75,5 +75,5 @@
     "content": "Rakibul Hasan &copy; 2021"
   },
   "title": "Rakibul Hasan | Full-stack Javascript Developer @raikusy",
-  "favicon": "images/violet-owl.jpg"
+  "favicon": "images/logo@sm.png"
 }

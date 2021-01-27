@@ -2,9 +2,9 @@
 title: আমার ব্লগে আপনাকে স্বাগতম 😉
 excerpt: Hello everyone! I will be writing various technical blogs here.
 date: 2021-01-25T02:00:00+06:00
-thumb_img_path: images/raikusy.jpg
+thumb_img_path: images/logo.webp
 thumb_img_alt: Rakibul Hasan @raikusy
-content_img_path: images/raikusy.jpg
+content_img_path: images/logo@2x.webp
 content_img_alt: Rakibul Hasan @raikusy
 template: post
 ---

@@ -17,9 +17,10 @@ $font: (
 // Palette.
 $palette: (
   primary: #2e3440,
+  light: lighten(#2e3440, 60%),
   secondary: darken(#2e3440, 15%),
-  meta: lighten(#4c566a, 30%),
-  border: lighten(#4c566a, 55%),
+  meta: lighten(#a2466c, 25%),
+  border: lighten(#2e3440, 55%),
   bg: lighten(#2e3440, 60%),
   accent: #1de2bc,
   accent-blue: #10bcf9,
