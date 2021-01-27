@@ -5,13 +5,20 @@ admin_path: ''
 webhook_url: https://api.stackbit.com/project/600dbc524a8f8c0015894caf/webhook/refresh-content
 sections:
 - type: heading
-  label: Develop
+  label: Edit
 - type: directory
   path: src/pages/posts
   label: Posts
   create: all
   match: "**/*"
   new_doc_ext: md
+- type: heading
+  label: Pages
+- type: document
+  path: src/pages/about.md
+  label: About Me
+  match: "**/*"
+  read_only: false
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
