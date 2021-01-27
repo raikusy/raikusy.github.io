@@ -149,14 +149,24 @@
   }
 
   .site-header.dark {
-    .social-links .button-icon:hover {
-      border-color: _palette(accent-violet);
+    .social-links .button-icon {
+      &:hover {
+        background: _palette(accent-yellow);
+        border-color: _palette(accent-yellow);
+        box-shadow: 0 0 1px 5px rgba(_palette(accent-yellow), 0.2);
+      }
     }
 
     .menu-item .button:hover,
     .menu-item .button:focus,
     .menu-item .button:active {
-      color: _palette(accent-violet);
+      color: _palette(accent-yellow);
+    }
+
+    .menu-item.current-menu-item,
+    .menu-item :not(.button):hover,
+    .post-title a:hover {
+      color: _palette(accent-yellow);
     }
   }
 }

@@ -1,0 +1,19 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: file
+  name: img_path
+  label: img_path
+- type: text
+  name: img_alt
+  label: img_alt
+- type: text
+  name: template
+  label: template

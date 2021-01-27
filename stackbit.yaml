@@ -1,6 +1,7 @@
 stackbitVersion: ~0.3.0
 ssgName: gatsby
 ssgVersion: 2.3.30
+cmsName: forestry
 buildCommand: npm run build
 publishDir: public
 staticDir: static
