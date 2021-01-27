@@ -36,6 +36,10 @@ sections:
   path: src/pages/thank-you.md
   label: Thank you
   match: "**/*"
+- type: document
+  path: src/pages/404.md
+  label: 404 Page
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
