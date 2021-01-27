@@ -1,0 +1,54 @@
+---
+label: Advanced
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: hide_title
+  label: hide_title
+- type: field_group_list
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: section_id
+    label: section_id
+  - type: text
+    name: type
+    label: type
+  - type: text
+    name: content
+    label: content
+  - type: text
+    name: form_id
+    label: form_id
+  - type: text
+    name: form_action
+    label: form_action
+  - type: field_group_list
+    name: form_fields
+    label: form_fields
+    fields:
+    - type: text
+      name: input_type
+      label: input_type
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: default_value
+      label: default_value
+    - type: boolean
+      name: is_required
+      label: is_required
+  - type: text
+    name: submit_label
+    label: submit_label
+- type: text
+  name: template
+  label: template
