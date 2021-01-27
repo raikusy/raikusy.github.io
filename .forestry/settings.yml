@@ -15,10 +15,27 @@ sections:
 - type: heading
   label: Pages
 - type: document
+  path: src/pages/index.md
+  label: Home
+  match: "**/*"
+- type: document
+  path: src/pages/style-guide.md
+  label: Style Guide
+  match: "**/*"
+  read_only: true
+- type: document
   path: src/pages/about.md
   label: About Me
   match: "**/*"
   read_only: false
+- type: document
+  path: src/pages/contact.md
+  label: Contact Me
+  match: "**/*"
+- type: document
+  path: src/pages/thank-you.md
+  label: Thank you
+  match: "**/*"
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
