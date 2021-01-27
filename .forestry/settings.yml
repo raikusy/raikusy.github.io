@@ -2,7 +2,7 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: https://api.stackbit.com/project/600dbc524a8f8c0015894caf/webhook/refresh-content
+webhook_url: ''
 sections:
 - type: heading
   label: Edit
