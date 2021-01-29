@@ -7,7 +7,7 @@ thumb_img_alt: Rakibul Hasan @raikusy
 content_img_path: images/logo@2x.webp
 content_img_alt: Rakibul Hasan @raikusy
 template: post
-subtitle: 'রাইকুর টেক '
+subtitle: রাইকুর টেক jogote
 ---
 
 Hello everyone! I will be writing various technical blogs here.
