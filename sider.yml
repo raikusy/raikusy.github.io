@@ -40,10 +40,10 @@ linter:
 
 # Ignore specific files. Example:
 ignore:
- - "static/**"
- - ".forestry/**"
- - "plugins/**"
- - "gatsby-*.js"
+  - "static/**"
+  - ".forestry/**"
+  - "plugins/**"
+  - "gatsby-*.js"
 #   - "*.pdf"
 #   - "*.mp4"
 #   - "*.min.*"
