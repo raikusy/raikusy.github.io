@@ -44,7 +44,11 @@ linter:
 #     norc: true
 
 # Ignore specific files. Example:
-# ignore:
+ ignore:
+  - "static/**"
+  - ".forestry/**"
+  - "plugins/**"
+  - "gatsby-*.js"
 #   - "*.pdf"
 #   - "*.mp4"
 #   - "*.min.*"
