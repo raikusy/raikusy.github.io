@@ -2,40 +2,40 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: "/static/admin"
-webhook_url: ""
+webhook_url: ''
 sections:
-  - type: heading
-    label: Edit
-  - type: directory
-    path: src/pages/posts
-    label: Posts
-    create: all
-    match: "**/*"
-    new_doc_ext: md
-  - type: heading
-    label: Pages
-  - type: document
-    path: src/pages/index.md
-    label: Home
-  - type: document
-    path: src/pages/style-guide.md
-    label: Style Guide
-    read_only: true
-  - type: document
-    path: src/pages/about.md
-    label: About Me
-  - type: document
-    path: src/pages/contact.md
-    label: Contact Me
-  - type: document
-    path: src/pages/thank-you.md
-    label: Thank you
-  - type: document
-    path: src/pages/404.md
-    label: 404 Page
+- type: heading
+  label: Edit
+- type: directory
+  path: src/pages/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: md
+- type: heading
+  label: Pages
+- type: document
+  path: src/pages/index.md
+  label: Home
+- type: document
+  path: src/pages/style-guide.md
+  label: Style Guide
+  read_only: true
+- type: document
+  path: src/pages/about.md
+  label: About Me
+- type: document
+  path: src/pages/contact.md
+  label: Contact Me
+- type: document
+  path: src/pages/thank-you.md
+  label: Thank you
+- type: document
+  path: src/pages/404.md
+  label: 404 Page
 upload_dir: static/images
 public_path: "/images"
-front_matter_path: ""
+front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:

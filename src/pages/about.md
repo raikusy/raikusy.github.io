@@ -6,12 +6,16 @@ img_alt: Portrait of Rakibul Hasan @raikusy in Talk.js Meetup 2019
 template: page
 
 ---
-**John Doe** is a Senior Art Director from [Stockholm](https://en.wikipedia.org/wiki/Stockholm), Sweden. After graduating from The College of Visual Arts with a degree in Communication Design, he worked for three small graphic design shops where he honed his design style and sensibility.
+I am **Rakibul Hasan** from  Dhaka, Bangladesh. I am a full stack developer. I have been developing various frontend applications using **React**, **Redux**, etc many packages and tools for more than 3 years. I have been also developing backend applications using **Node.js,** **Nest.js**.
 
-His work has been recognized by Communication Arts, Print, How, ID, IdN, AIGA, Effie, Archive, Graphis, AdFed and Rockport. Graphic Design USA named him a person to watch in 2019.
+I am very interested and passionate on **DevOps** and **System Design & Architecture**. I usually spend my free times learning and exploring many topics on DevOps, System Design & Architecture, Design Patterns, System Scalability and many other modern technologies, tools, frameworks and languages.
 
-> The world always seems brighter when you’ve just made something that wasn’t there before. <cite>Neil Gaiman</cite>
+I am mostly skilled and experienced in building **clean, maintainable & scale-able Frontend applications** using React, Typescript, REST/GraphQL. I love using and building custom hooks, reusable components, component documentation with storybook. Some of my favorite and mostly used packages are react-hook-form, react-query, constate, redux, redux-toolkit, axios, etc.
 
-As a hobby, John Doe authors the most influential design blog in Sweden with over 100,000 page views a month. He lives in Stockholm with his beautiful wife and two boys.
+I have also developed few **Ecommerce**, **SaaS**, **Service Based** backend applications using Nest.js. I have used **PostgreSQL, MongoDB, Couchbase** in my projects. I have built both **REST** and **GraphQL** backends. I have experience working in **microservice architecture** using **Nest.js**, **gRPC**.
 
-_Thank You for reading!_
+I've also worked with various **AWS** services like **EC2, ECS, ECR, S3, Route53, Amplify, Lightsail**, etc.
+
+I love to play and work with various modern tools and technologies like **Docker, Kubernetes, Terraform, Ansible, Jenkins**, etc.
+
+My future dream is to be a **System Design Architect**. I'm always interested and excited about latest and modern technologies.
