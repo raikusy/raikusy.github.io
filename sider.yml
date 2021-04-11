@@ -5,22 +5,17 @@
 
 # Customize each tool. If analyses fail, try adjusting each option referencing the following example.
 linter:
-#   # ESLint example. See https://help.sider.review/tools/javascript/eslint
-#   eslint:
-#     root_dir: project/
-#     dependencies:
-#       - my-eslint-plugin@2
-#     npm_install: false
-#     target:
-#       - src/
-#       - lib/
-#     ext: [.js, .jsx]
-#     config: config/.eslintrc.js
-#     ignore-path: config/.eslintignore
-#     ignore-pattern: "vendor/**"
-#     no-ignore: true
-#     global: ["require", "exports:true"]
-#     quiet: true
+  # ESLint example. See https://help.sider.review/tools/javascript/eslint
+  eslint:
+    root_dir: .
+    npm_install: false
+    target:
+      - src/
+    ext: [.js, .jsx]
+    ignore-pattern: "static/**"
+    #no-ignore: true
+    #global: ["require", "exports:true]
+    quiet: true
 
 #   # Misspell example. See https://help.sider.review/tools/others/misspell
 #   misspell:
@@ -44,11 +39,11 @@ linter:
 #     norc: true
 
 # Ignore specific files. Example:
- ignore:
-  - "static/**"
-  - ".forestry/**"
-  - "plugins/**"
-  - "gatsby-*.js"
+ignore:
+ - "static/**"
+ - ".forestry/**"
+ - "plugins/**"
+ - "gatsby-*.js"
 #   - "*.pdf"
 #   - "*.mp4"
 #   - "*.min.*"
