@@ -7,4 +7,4 @@ template: page
 ---
 I am from **Dhaka, Bangladesh**
 
-*Well nothing much to write about me, but I **write a lot of code** btw!*
+Well nothing much to write about me, but I **write a lot of code** btw!
