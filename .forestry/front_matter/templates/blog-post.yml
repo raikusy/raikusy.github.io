@@ -26,3 +26,5 @@ fields:
 - type: text
   name: template
   label: template
+pages:
+- src/pages/posts/why-react-query-is-a-game-changer-for-data-fetching-in-react.md
