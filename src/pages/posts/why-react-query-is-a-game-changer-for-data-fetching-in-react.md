@@ -1,6 +1,8 @@
 ---
 title: Why React Query is a Game Changer for Data Fetching in React.
-excerpt: ''
+excerpt: As developers, we are always looking for ways to make our code more efficient
+  and our projects more streamlined. One area that can be particularly time-consuming
+  is data fetching
 date: 2023-04-07T03:00:00+06:00
 thumb_img_path: "/images/r.png"
 thumb_img_alt: ''
